@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <div id="page1">
+        <h1>Change The Course</h1>
+        <div id="video-container">
+          <video src="Images/vid2.mp4" controls loop muted autoplay></video>
+          <div class="play">PLAY</div>
+        </div>
+      </div>
+
+      <div id="page2">
+        <div id="elem1" class="elem">
+          <img
+            data-scroll
+            data-scroll-speed="2"
+            src="https://cdn.pixabay.com/photo/2016/07/16/19/36/space-probe-1522546_640.jpg"
+            alt=""
+          />
+          <div data-scroll data-scroll-speed="-2" class="dets"></div>
+        </div>
+        <div id="elem2" class="elem">
+          <img
+            data-scroll
+            data-scroll-speed="2"
+            src="https://cdn.pixabay.com/photo/2020/09/06/22/11/neptune-5550216_640.jpg"
+            alt=""
+            srcset=""
+          />
+          <div data-scroll data-scroll-speed="-2" class="dets"></div>
+        </div>
+        <div id="elem3" class="elem">
+          <img
+            data-scroll
+            data-scroll-speed="2"
+            src="https://cdn.pixabay.com/photo/2018/03/31/20/47/galaxy-3279274_640.jpg"
+            alt=""
+            srcset=""
+          />
+          <div data-scroll data-scroll-speed="-2" class="dets"></div>
+        </div>
+      </div>
+
+      <div id="page3">
+        <div class="child" id="child1">
+          <img
+            src="https://cdn.pixabay.com/photo/2016/08/24/14/29/earth-1617121_640.jpg"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div class="child" id="child2">
+          <img src="./Images/orion-nebula-11107_640.jpg" alt="" srcset="" />
+        </div>
+        <div class="child" id="child3">
+          <img
+            src="https://cdn.pixabay.com/photo/2012/11/28/10/54/planet-67672_640.jpg"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div class="child" id="child4">
+          <img
+            src="https://cdn.pixabay.com/photo/2020/06/19/22/33/wormhole-5319067_1280.jpg"
+            alt=""
+            srcset=""
+          />
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
